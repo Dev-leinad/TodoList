@@ -61,7 +61,7 @@ const TodoForm = () => {
         <>
             <section className='form-container' >
                 <div>
-                   <h2>Enter List of things you want to do </h2>
+                   <h2>Add a Task </h2>
                 <input type={'text'} value={task} onChange={handleInputChange} />
                 <button onClick={addTask}>Add Task</button>
                 <div>

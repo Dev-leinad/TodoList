@@ -18,8 +18,8 @@ const TodoList = (props) => {
                 <div style={{ display: 'flex', justifyContent:'space-between', alignItems: 'center', listStyle: 'none' }}>
 
 
-                      <FaCheck size={24} style={{color : 'green', marginRight :20}} onClick={onComplete}/>
-                    <FaTrash size={24} style={{color : 'red', marginRight :20}} onClick={onDelete} />
+                      <FaCheck className="check-icon" size={20} style={{color : 'green', marginRight :20}} onClick={onComplete}/>
+                    <FaTrash size={20} style={{color : 'red', marginRight :20}} onClick={onDelete} />
 
                   
                     {/* <FaAngleDoubleRight  /> */}
